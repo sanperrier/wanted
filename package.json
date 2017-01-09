@@ -1,0 +1,64 @@
+{
+  "name": "Wanted",
+  "version": "0.0.1",
+  "description": "Wanted prototype",
+  "main": "index.js",
+  "scripts": {
+    "webpack-server": "webpack-dev-server --inline --hot --watch",
+    "build": "cross-env NODE_ENV=development webpack",
+    "build-production": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanperrier/wanted.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanperrier/wanted/issues"
+  },
+  "homepage": "https://github.com/sanperrier/wanted#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs-simple": "^6.7.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-runtime": "^6.9.2",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.3",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "modernizr-webpack-plugin": "^1.0.5",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "pug": "^2.0.0-beta4",
+    "pug-loader": "^2.1.0",
+    "pug-walk": "0.0.3",
+    "sass": "^0.5.0",
+    "sass-loader": "^4.0.0",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.13.1",
+    "svg-url-loader": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.epoxy": "git+https://github.com/sanperrier/backbone.epoxy.git#1.5.2",
+    "backbone.marionette": "^2.4.7",
+    "bluebird": "^3.4.6",
+    "ionicons": "^3.0.0",
+    "jquery": "^3.1.1",
+    "npm-font-open-sans": "0.0.3",
+    "scrollparent": "^1.0.2",
+    "underscore": "^1.8.3"
+  }
+}
